@@ -1,0 +1,21 @@
+#Prints false because one is evaluated as false
+rawr = all(x > 10 for x in [11, 12, 1])
+print(rawr)
+
+
+limber = [10, 12, 2]
+result = all(x >= 10 for x in limber)
+print(result)
+
+#Ctrl + h = replace
+#Ctr; + f = find 
+
+#removes certain characters by traversing the whole list 
+#name = str.maketrans("", "", 'o')
+#for x in ['yolo', 'your', 'ooly']:
+    #print(x.translate(name))
+
+#transitions certain characters by traversing the whole list
+name1 = str.maketrans("o","a")
+for x in ['yolo', 'your', 'ooly']:
+    print(x.translate(name1))
