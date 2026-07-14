@@ -11,11 +11,12 @@ print(result)
 #Ctr; + f = find 
 
 #removes certain characters by traversing the whole list 
-#name = str.maketrans("", "", 'o')
-#for x in ['yolo', 'your', 'ooly']:
-    #print(x.translate(name))
+name = str.maketrans("", "", 'o')
+for x in ['yolo', 'your', 'ooly']:
+    print(x.translate(name))
 
 #transitions certain characters by traversing the whole list
-name1 = str.maketrans("o","a")
+hey = str.maketrans("o","a")
 for x in ['yolo', 'your', 'ooly']:
-    print(x.translate(name1))
+    print(x.translate(hey))
+
